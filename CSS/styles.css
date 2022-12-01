@@ -201,9 +201,6 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  /* margin: 0px 8px 0px 0px;
-  margin-right: 8px;
-  margin-left: 8px; */
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -236,15 +233,10 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  /* display: flex;
-  justify-content: center;
-  text-align: center; */
 }
 .box-top {
   display: flex;
   align-items: center;
-  /* justify-content: center;
-  text-align: center; */
 }
 .head-box {
   border-bottom: 1px solid #ececec;
@@ -341,15 +333,7 @@ img {
 /* Підвал */
 .bottom-block {
   padding: 60px 0px;
-  /* text-align: left; */
-  /* height: 252px; */
 }
-/* .container-foot {
-  display: flex;
-  flex-direction: column;
-  flex-basis: auto;
-  justify-content: flex-start;
-  align-content: flex-start;} */
 
 .logo-foot {
   font-family: "Raleway";
@@ -371,15 +355,6 @@ img {
 .post-addres {
   margin-top: 20px;
 }
-/* .contact-foot > li {
-  padding-bottom: 9px;
-}
-.contact-foot > li:first-child {
-  padding-bottom: 20px;
-}
-.contact-foot > li:last-child {
-  padding-bottom: 0;
-} */
 .foot-navig {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -425,14 +400,37 @@ img {
   padding-right: 0px;
   gap: 30px;
 }
-/* .porfolio-list > li {
-} */
 .portfolio-once {
   padding: 20px 0px 20px 24px;
   border-bottom: 1px solid #ececec;
   border-right: 1px solid #ececec;
   border-left: 1px solid #ececec;
 }
-/* .container-portfolio {
-  width: 1200px;
-} */
+/* Для ДЗ №4 */
+.back-photo {
+  height: 600px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/HomeWork4/hero.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.advantage-icon::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-color: #f5f4fa;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.advantage-icon.antenna-icon ::before {
+  background-image: url("../images/HomeWork4/SVG/Vector.svg");
+}
