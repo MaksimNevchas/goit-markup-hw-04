@@ -92,6 +92,13 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/HomeWork4/hero.jpg");
+  background-position: center;
 }
 .hero-title {
   color: var(--primary-white-color);
@@ -407,21 +414,7 @@ img {
   border-left: 1px solid #ececec;
 }
 /* Для ДЗ №4 */
-.back-photo {
-  height: 600px;
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: linear-gradient(
-      to bottom,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url("../images/HomeWork4/hero.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+
 .advantage-icon::before {
   display: block;
   content: "";
@@ -431,6 +424,6 @@ img {
   background-size: contain;
   background-position: center;
 }
-.advantage-icon.antenna-icon ::before {
+.antenna-icon::before {
   background-image: url("../images/HomeWork4/SVG/Vector.svg");
 }
