@@ -414,16 +414,55 @@ img {
   border-left: 1px solid #ececec;
 }
 /* Для ДЗ №4 */
-
-.advantage-icon::before {
+.envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  --color2: currentColor;
+}
+.smartphone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  --color5: currentColor;
+}
+.advantage-icon {
   display: block;
-  content: "";
   height: 120px;
   background-color: #f5f4fa;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  margin-bottom: 30px;
 }
-.antenna-icon::before {
-  background-image: url("../images/HomeWork4/SVG/antenna\ 1.svg");
+.icon-item {
+  width: 70px;
+  height: 70px;
+  margin: 25px 100px;
 }
+.team-icons {
+  display: flex;
+  width: 206px;
+  height: 44px;
+  padding: 0;
+  margin: 0;
+}
+.icon-team {
+  width: 20px;
+  height: 20px;
+}
+.social-net {
+  display: flex;
+  margin: 16px 42px 0px 42px;
+  padding: 0;
+}
+.social-net a {
+  padding-right: 34px;
+}
+.social-net a:last-child {
+  padding-right: 0px;
+}
+.social-net a:hover :focus {
+}
+
+/* Постійні клієнти */
